@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "d2lobby", "d2lobby.vcxproj", "{EA8E7106-8D09-46A1-881B-FFBC4B8532F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release - Dizard|Win32 = Release - Dizard|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA8E7106-8D09-46A1-881B-FFBC4B8532F2}.Debug|Win32.ActiveCfg = Debug - Dota 2|Win32
+		{EA8E7106-8D09-46A1-881B-FFBC4B8532F2}.Debug|Win32.Build.0 = Debug - Dota 2|Win32
+		{EA8E7106-8D09-46A1-881B-FFBC4B8532F2}.Release - Dizard|Win32.ActiveCfg = Release - Dizard|Win32
+		{EA8E7106-8D09-46A1-881B-FFBC4B8532F2}.Release - Dizard|Win32.Build.0 = Release - Dizard|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

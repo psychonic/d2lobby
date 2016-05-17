@@ -1,0 +1,1 @@
+This plugin is largely obsolete since Dota 2's port to Source2. There are also better approaches to much of the setup, creating/injecting fake lobbies rather than setting all internal data manually. Hopefully someone finds some use from this though.

@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Protobuf">
+      <UniqueIdentifier>{33781f43-463e-4a36-aa24-838e9396404e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\d2lobby.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\protobuf\dota_gcmessages_common.pb.cc">
+      <Filter>Protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\protobuf\dota_gcmessages_server.pb.cc">
+      <Filter>Protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\protobuf\econ_gcmessages.pb.cc">
+      <Filter>Protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\protobuf\gcsdk_gcmessages.pb.cc">
+      <Filter>Protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\protobuf\matchmaker_common.pb.cc">
+      <Filter>Protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pb2json.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\protobuf\networkbasetypes.pb.cc">
+      <Filter>Protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\protobuf\usermessages.pb.cc">
+      <Filter>Protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\playerresourcehelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\protobuf\steammessages.pb.cc">
+      <Filter>Protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\constants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gameruleshelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pluginsystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\eventlog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\protobuf\ai_activity.pb.cc">
+      <Filter>Protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\protobuf\dota_usermessages.pb.cc">
+      <Filter>Protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\protobuf\dota_commonmessages.pb.cc">
+      <Filter>Protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\protobuf\network_connection.pb.cc">
+      <Filter>Protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\protobuf\dota_clientmessages.pb.cc">
+      <Filter>Protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\httpmgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pausehandling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\forcedhero.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scriptmgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipientfilters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CDetour\asm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CDetour\bytecode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CDetour\detour.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ob-midonly.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\d2lobby.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\protobuf\dota_gcmessages_common.pb.h">
+      <Filter>Protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\protobuf\dota_gcmessages_server.pb.h">
+      <Filter>Protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\protobuf\econ_gcmessages.pb.h">
+      <Filter>Protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\protobuf\gcsdk_gcmessages.pb.h">
+      <Filter>Protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\protobuf\matchmaker_common.pb.h">
+      <Filter>Protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\protobuf\steammessages.pb.h">
+      <Filter>Protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pb2json.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\protobuf\networkbasetypes.pb.h">
+      <Filter>Protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\protobuf\usermessages.pb.h">
+      <Filter>Protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\playerresourcehelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gameruleshelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pluginsystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\eventlog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\protobuf\ai_activity.pb.h">
+      <Filter>Protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\protobuf\dota_usermessages.pb.h">
+      <Filter>Protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\protobuf\dota_commonmessages.pb.h">
+      <Filter>Protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\protobuf\network_connection.pb.h">
+      <Filter>Protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\protobuf\dota_clientmessages.pb.h">
+      <Filter>Protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\httpmgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pausehandling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\forcedhero.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scriptmgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\recipientfilters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CDetour\asm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CDetour\bytecode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CDetour\defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CDetour\detour.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ob-midonly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
